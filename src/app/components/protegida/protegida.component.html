@@ -1,0 +1,16 @@
+<h1>perfil</h1>
+
+<hr>
+
+<ul *ngIf="auth.user$ | async as user">
+    <li>{{ user.name }}</li>
+    <li>{{ user.email }}</li>
+</ul>
+
+<br>
+<br>
+
+<ul *ngIf="auth.user$ | async as user">
+    <li>{{ user.name }}</li>
+    <li>{{ user.email }}</li>
+</ul>
